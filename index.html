@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital Shield for Biodiversity</title>
+  <!-- Load Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Configure Tailwind to use Inter font and custom colors -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'primary-green': '#2c6e49', // Darker Green for background/accents
+            'secondary-teal': '#264653', // Deep Teal for navigation/footer
+          },
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+          },
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-gray-50 text-gray-700 antialiased font-sans">
+  
+  <!-- Header Section -->
+  <header class="bg-primary-green text-white py-12 shadow-2xl">
+    <div class="max-w-6xl mx-auto px-4 text-center">
+      <h1 class="text-4xl sm:text-5xl font-extrabold tracking-tight mb-2">Tech for Wildlife Protection</h1>
+      <p class="text-xl font-light opacity-90">A Digital Shield for Biodiversity</p>
+    </div>
+  </header>
+
+  <!-- Navigation Bar - Sticky and Responsive -->
+  <nav class="sticky top-0 z-50 bg-secondary-teal shadow-lg">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex space-x-4 overflow-x-auto py-3 whitespace-nowrap scrollbar-hide">
+        <!-- Navigation Links -->
+        <a href="#revolution" class="text-white text-sm font-medium py-1 px-3 rounded-full hover:bg-teal-700 transition duration-150">Digital Revolution</a>
+        <a href="#drones" class="text-white text-sm font-medium py-1 px-3 rounded-full hover:bg-teal-700 transition duration-150">Drones & Satellites</a>
+        <a href="#sensors" class="text-white text-sm font-medium py-1 px-3 rounded-full hover:bg-teal-700 transition duration-150">Field Sensors</a>
+        <a href="#tracking" class="text-white text-sm font-medium py-1 px-3 rounded-full hover:bg-teal-700 transition duration-150">Animal Tracking</a>
+        <a href="#ai" class="text-white text-sm font-medium py-1 px-3 rounded-full hover:bg-teal-700 transition duration-150">AI & Machine Learning</a>
+        <a href="#rangers" class="text-white text-sm font-medium py-1 px-3 rounded-full hover:bg-teal-700 transition duration-150">Ranger Platforms</a>
+        <a href="#rhino" class="text-white text-sm font-medium py-1 px-3 rounded-full hover:bg-teal-700 transition duration-150">Rhino Poaching Case</a>
+        <a href="#global" class="text-white text-sm font-medium py-1 px-3 rounded-full hover:bg-teal-700 transition duration-150">Global Scale Case</a>
+        <a href="#challenges" class="text-white text-sm font-medium py-1 px-3 rounded-full hover:bg-teal-700 transition duration-150">Challenges</a>
+        <a href="#future" class="text-white text-sm font-medium py-1 px-3 rounded-full hover:bg-teal-700 transition duration-150">Future Path</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content Area -->
+  <main class="max-w-6xl mx-auto p-4 sm:p-6 lg:p-8 space-y-8">
+    
+    <!-- Section 1: The Digital Revolution in Conservation -->
+    <section id="revolution" class="bg-white p-6 md:p-10 rounded-xl shadow-lg hover:shadow-xl transition duration-300">
+      <h2 class="text-3xl font-bold text-primary-green mb-6 border-b-2 border-primary-green/30 pb-2">1. The Digital Revolution in Conservation</h2>
+      <p class="mb-4 text-lg">The planet is facing an unprecedented biodiversity crisis, with approximately 28% of all assessed species threatened with extinction. Traditional conservation methods, while essential, are often outmatched by modern threats like sophisticated poaching networks, rapid habitat loss, and climate change. In response, a technological revolution is transforming wildlife protection. Conservation technology, or "tech for wildlife," leverages tools from drones and satellites to artificial intelligence and mobile apps to safeguard species and ecosystems more effectively and efficiently than ever before.</p>
+      
+      <blockquote class="border-l-4 border-secondary-teal pl-4 italic text-gray-500 my-6">
+        "Technological innovation has the potential to be a game changer for conservation, helping us to safeguard species, landscapes and seascapes more efficiently and effectively, and to scale up and speed up our impact."
+        <footer class="text-sm font-semibold mt-2 not-italic text-secondary-teal"> - Fauna & Flora</footer>
+      </blockquote>
+    </section>
+
+    <!-- Section 2: The View from Above: Drones & Satellites -->
+    <section id="drones" class="bg-white p-6 md:p-10 rounded-xl shadow-lg hover:shadow-xl transition duration-300">
+      <h2 class="text-3xl font-bold text-primary-green mb-6 border-b-2 border-primary-green/30 pb-2">2. The View from Above: Drones & Satellites</h2>
+      
+      <h3 class="text-2xl font-semibold text-secondary-teal mt-6 mb-3">Drones (UAVs)</h3>
+      <p>Unmanned Aerial Vehicles (UAVs), or drones, collect high-resolution data quickly, non-invasively, and at a relatively low cost. Equipped with various sensors, drones are used for:</p>
+      <ul class="list-disc list-inside space-y-2 ml-4 mt-3">
+        <li><strong>Wildlife Surveys:</strong> Drones with thermal cameras can detect heat signatures, making it possible to count animals at night or in dense forests.</li>
+        <li><strong>Habitat Monitoring:</strong> Projects like Amazon Aerobotany use drones to capture high-resolution imagery of the rainforest canopy, helping scientists analyze forest health.</li>
+        <li><strong>Anti-Poaching Patrols:</strong> Drones patrol large areas to monitor for poachers, reducing the risks faced by rangers on the ground.</li>
+      </ul>
+
+      <h3 class="text-2xl font-semibold text-secondary-teal mt-8 mb-3">Satellites & Remote Sensing</h3>
+      <p>Satellite technology and Geographic Information Systems (GIS) allow for landscape-scale analysis:</p>
+      <ul class="list-disc list-inside space-y-2 ml-4 mt-3">
+        <li><strong>Habitat Loss Detection:</strong> Satellite imagery identifies causes of deforestation and tracks land-use changes in critical habitats.</li>
+        <li><strong>Population Monitoring:</strong> NASA works with conservationists to monitor habitats for species like tigers and elephants.</li>
+        <li><strong>Combating Illegal Fishing:</strong> Satellite data, combined with AIS from vessels, helps authorities track and identify potentially illegal fishing activities at scale.</li>
+      </ul>
+    </section>
+	
+	<figure style="text-align:center;">
+        <img src="https://i.postimg.cc/ZnRwCxk2/Wildlife-Drones.jpg" alt="The Wildlife Drones team operates a drone in a field, a common practice for aerial wildlife monitoring andresearch" width="600" style="display:block; margin-left:auto; margin-right:auto;">
+    <figcaption style="margin-top:8px; color:#555; font-style:italic;">
+    Figure:The Wildlife Drones team operates a drone in a field, a common practice for aerial wildlife monitoring andresearch 
+  </figcaption>
+</figure>
+	
+	<!-- Section 3: Eyes and Ears on the Ground: Advanced Field Sensors -->
+    <section id="sensors" class="bg-white p-6 md:p-10 rounded-xl shadow-lg hover:shadow-xl transition duration-300">
+      <h2 class="text-3xl font-bold text-primary-green mb-6 border-b-2 border-primary-green/30 pb-2">3. Eyes and Ears on the Ground: Advanced Field Sensors</h2>
+      
+      <h3 class="text-xl font-semibold text-secondary-teal mb-2">Camera Traps</h3>
+      <p class="mb-5">Remote camera traps provide a non-intrusive way to study elusive species. Innovations include arboreal (tree-top) camera traps and Baited Remote Underwater Videos (BRUVs) for marine life monitoring.</p>
+      
+	  <figure style="text-align:center;">
+	  <img src="https://i.postimg.cc/gr9GYDrD/Browningcamera.webp" alt="A Browning camera trap, camouflaged and strapped to a tree, is used for non-intrusive wildlife monitoring" width="600" style="display:block; margin-left:auto; margin-right:auto;">
+         <figcaption style="margin-top:8px; color:#555; font-style:italic;">
+    Figure: A Browning camera trap, camouflaged and strapped to a tree, is used for non-intrusive wildlife monitoring
+  </figcaption>
+</figure>
+	  
+      <h3 class="text-xl font-semibold text-secondary-teal mb-2">Acoustic Monitoring</h3>
+      <p class="mb-5">Acoustic sensors record sounds over long periods, identifying species presence and detecting human activities such as gunshots or chainsaws, providing real-time alerts for law enforcement.</p>
+      
+      <h3 class="text-xl font-semibold text-secondary-teal mb-2">Environmental DNA (eDNA)</h3>
+      <p>By collecting and analyzing samples of soil, water, or air, scientists can detect the presence of species without ever seeing them, providing a rapid snapshot of biodiversity.</p>
+    </section>
+
+    <!-- Section 4: Follow the Footprints: Advanced Animal Tracking -->
+    <section id="tracking" class="bg-white p-6 md:p-10 rounded-xl shadow-lg hover:shadow-xl transition duration-300">
+      <h2 class="text-3xl font-bold text-primary-green mb-6 border-b-2 border-primary-green/30 pb-2">4. Follow the Footprints: Advanced Animal Tracking</h2>
+      
+      <h3 class="text-2xl font-semibold text-secondary-teal mt-6 mb-3">GPS Collars and Tags</h3>
+      <p>GPS collars are vital for real-time tracking, which helps with anti-poaching efforts, sends alerts for Human-Wildlife Conflict Mitigation when animals approach human settlements, and provides researchers with crucial data on movement and behavior in response to environmental changes.</p>
+      
+	  <figure style="text-align:center;">
+	  <img src="https://i.postimg.cc/NfLNYtwK/liongps.jpg" alt="A GPS tracking collar fitted on a lioness allows researchers and conservationists to monitor her movements and behavior in real-time" width="600" style="display:block; margin-left:auto; margin-right:auto;">
+	  <figcaption style="margin-top:8px; color:#555; font-style:italic;">
+    Figure:A GPS tracking collar fitted on a lioness allows researchers and conservationists to monitor her movements and behavior in real-time
+  </figcaption>
+</figure>
+	  
+      <h3 class="text-2xl font-semibold text-secondary-teal mt-8 mb-3">Innovations in Tracking</h3>
+      <ul class="list-disc list-inside space-y-2 ml-4 mt-3">
+        <li>Motus Wildlife Tracking System: Tracks migration of small animals like birds, bats, and insects over vast distances.</li>
+        <li>"Burr on Fur" Trackers: Small devices adhered to animal fur without requiring sedation.</li>
+        <li>Satellite Trackers: Used on sea turtles and giant tortoises to inform the design of marine protected areas.</li>
+      </ul>
+    </section>
+
+    <!-- Section 5-8 Grouped: AI, Rangers, and Case Studies -->
+    <div class="grid md:grid-cols-2 gap-8">
+      
+      <!-- Section 5: AI & Machine Learning -->
+      <section id="ai" class="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition duration-300">
+        <h2 class="text-2xl font-bold text-primary-green mb-4 border-b-2 border-primary-green/30 pb-2">5. The Brains of the Operation: AI & Machine Learning</h2>
+        <p class="mb-4">Artificial intelligence (AI) and machine learning automate the process of analyzing vast conservation data, processing millions of images, audio recordings, and satellite data at high speed.</p>
+        <ul class="list-disc list-inside space-y-2 ml-4">
+          <li>Automated Species Identification: Platforms like Wildlife Insights identify species from camera trap photos, reducing manual labor.</li>
+          <li>Predictive Analytics: Systems like PAWS (Protection Assistant for Wildlife Security) predict poaching hotspots and optimize patrol routes.</li>
+          <li>Acoustic Analysis: AI identifies species calls and detects anomalies like gunshots or chainsaw noise.</li>
+        </ul>
+      </section>
+	  
+	  <figure style="text-align:center;">
+	  <img src="https://i.postimg.cc/2jd2f4CC/Gemini-Generated-Image-nbsbtfnbsbtfnbsb.png" alt="A thermal camera captures the heat signatures of two rhinos, allowing AI to automatically identify and monitorthem, even in complete darkness" width="600">
+	<figcaption style="margin-top:8px; color:#555; font-style:italic;">
+    Figure:A thermal camera captures the heat signatures of two rhinos, allowing AI to automatically identify and monitorthem, even in complete darkness
+  </figcaption>
+</figure>
+
+      <!-- Section 6: Empowering Rangers: Mobile Apps & Management Platforms -->
+      <section id="rangers" class="bg-primary-green/5 p-6 rounded-xl shadow-lg border-2 border-primary-green/50 hover:shadow-xl transition duration-300">
+        <h2 class="text-2xl font-bold text-primary-green mb-4 border-b-2 border-primary-green/30 pb-2 flex items-center">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 mr-2 text-primary-green" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" /></svg>
+          6. Empowering Rangers: Mobile Apps & Management Platforms
+        </h2>
+        <p class="text-lg font-medium text-gray-800 mb-4">Platforms like EarthRanger provide a single, real-time operating picture for protected areas by integrating data from all field sources to enable rapid response. SMART serves a similar critical role.</p>
+        
+        <div class="space-y-4">
+          <div class="p-3 bg-white rounded-lg shadow-md border-l-4 border-secondary-teal">
+            <p class="font-bold text-secondary-teal text-base">Unifying Data Streams</p>
+            <p class="text-sm">Combines sensor data, asset trackers (GPS collars, vehicles), and patrol observations onto a single dynamic map.</p>
+          </div>
+          <div class="p-3 bg-white rounded-lg shadow-md border-l-4 border-secondary-teal">
+            <p class="font-bold text-secondary-teal text-base">AI-Driven Alert System</p>
+            <p class="text-sm">Uses machine learning to automatically detect unusual or threatening patterns, triggering immediate, actionable alerts for field teams.</p>
+          </div>
+          <div class="p-3 bg-white rounded-lg shadow-md border-l-4 border-secondary-teal">
+            <p class="font-bold text-secondary-teal text-base">Field Mobility (Ranger Apps)</p>
+            <p class="text-sm">Rangers use linked mobile apps to submit geolocated observations and receive real-time intelligence, fostering a direct link between data and action.</p>
+          </div>
+        </div>
+      </section>
+	  
+	  <section id="apps" style="text-align:center; margin:40px 0;">
+  <style>
+    #apps {
+      background: #f5f7f6;
+      padding: 40px 20px;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      max-width: 900px;
+      margin: 40px auto;
+    }
+
+    #apps h2 {
+      color: #2c6e49;
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+
+    #apps p {
+      color: #333;
+      font-size: 17px;
+      margin-bottom: 25px;
+    }
+
+    .app-links {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 25px;
+      flex-wrap: wrap;
+    }
+
+    .app-btn {
+      display: inline-flex;
+      align-items: center;
+      background-color: #000;
+      color: #fff;
+      border-radius: 12px;
+      padding: 10px 18px;
+      text-decoration: none;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      font-family: Arial, sans-serif;
+    }
+
+    .app-btn:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    }
+
+    .app-btn img {
+      height: 35px;
+      margin-right: 12px;
+    }
+
+    .app-text {
+      text-align: left;
+    }
+
+    .app-text small {
+      font-size: 11px;
+      display: block;
+      color: #bbb;
+    }
+
+    .app-text strong {
+      font-size: 16px;
+      color: #fff;
+    }
+
+    @media (max-width: 600px) {
+      .app-btn {
+        width: 80%;
+        justify-content: center;
+      }
+    }
+  </style>
+
+  <h2>📱 Download Animal Tracker App</h2>
+  <p>Track and explore animal movements with these official apps:</p>
+
+  <div class="app-links">
+    <!-- Google Play -->
+    <a href="https://play.google.com/store/apps/details?id=com.mpio.movebank"
+       target="_blank"
+       class="app-btn">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_icon.svg" alt="Google Play">
+      <div class="app-text">
+        <small>GET IT ON</small>
+        <strong>Google Play</strong>
+      </div>
+    </a>
+
+    <!-- App Store -->
+    <a href="https://apps.apple.com/in/app/animal-tracker/id813629500"
+       target="_blank"
+       class="app-btn">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg" alt="App Store" style="filter:invert(1);">
+      <div class="app-text">
+        <small>Download on the</small>
+        <strong>App Store</strong>
+      </div>
+    </a>
+  </div>
+</section>
+	
+	<figure style="text-align:center;">
+	  <img src="https://i.postimg.cc/tCWt54dZ/animal-tracking.webp" alt="Animal Tracker is a free app that can be installed on smartphones. It enables anyone to document their own animal observations and make them accessible to the scientific community." width="600">
+        <figcaption style="margin-top:8px; color:#555; font-style:italic;">
+    Figure:Animal Tracker is a free app that can be installed on smartphones. It enables anyone to document their own animal observations and make them accessible to the scientific community.
+  </figcaption>
+</figure>
+
+		
+      <!-- Section 7: Case Study: Combating Rhino Poaching in Kenya -->
+      <section id="rhino" class="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition duration-300">
+        <h2 class="text-2xl font-bold text-primary-green mb-4 border-b-2 border-primary-green/30 pb-2">7. Case Study: Combating Rhino Poaching in Kenya</h2>
+        <p>The Kifaru Rising project in Kenya deployed a multi-layered defense using thermal imaging technologies (fence-mounted cameras, handheld thermal devices) across rhino sanctuaries. The use of real-time alerts virtually eliminated rhino poaching incidents at Ol Pejeta Conservancy and Solio Game Reserve, proving the immense value of integrated tech solutions for species protection.</p>
+      </section>
+
+      <!-- Section 8: Case Study: Data-Driven Conservation on a Global Scale -->
+      <section id="global" class="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition duration-300">
+        <h2 class="text-2xl font-bold text-primary-green mb-4 border-b-2 border-primary-green/30 pb-2">8. Case Study: Data-Driven Conservation on a Global Scale</h2>
+        <ul class="list-disc list-inside space-y-2 ml-4">
+          <li>Illegal Fishing: Big data analysis identifies suspicious vessel activity worldwide to combat illegal, unreported, and unregulated fishing (IUU).</li>
+          <li>Tiger Habitats: NASA uses satellite imagery to identify and monitor potential tiger recovery zones across Asia.</li>
+          <li>Citizen Science: Projects in Cameroon use platforms like iNaturalist to turn ex-hunters into conservation allies by engaging them in collecting biodiversity data.</li>
+        </ul>
+      </section>
+    </div>
+
+    <!-- Section 9: Challenges -->
+    <section id="challenges" class="bg-white p-6 md:p-10 rounded-xl shadow-lg hover:shadow-xl transition duration-300">
+      <h2 class="text-3xl font-bold text-primary-green mb-6 border-b-2 border-primary-green/30 pb-2">9. The Hurdles to Overcome: Challenges & Ethical Considerations</h2>
+      
+      <h3 class="text-2xl font-semibold text-secondary-teal mt-6 mb-3">Practical and Financial Barriers</h3>
+      <p>High costs, durability in harsh environments, data overload, and technical skill shortages are significant hurdles that limit the adoption of conservation technology in many regions.</p>
+
+      <h3 class="text-2xl font-semibold text-secondary-teal mt-8 mb-3">Ethical Considerations</h3>
+      <p>As technology becomes more powerful, we must address concerns, including wildlife disturbance from drones, the potential social impacts of surveillance on local communities, and the serious risks of poaching from leaked tracking data.</p>
+    </section>
+	
+	<figure style="text-align:center;">
+	<img src="https://i.postimg.cc/85kfh1pR/chart.png" alt="graph that shows the challenges" width="600" style="display:block; margin-left:auto; margin-right:auto;">
+	<figcaption style="margin-top:8px; color:#555; font-style:italic;">
+    Figure: Graph showing major challenges faced in wildlife conservation.
+  </figcaption>
+</figure>
+    <!-- Section 10: Future - EXPANDED CONTENT -->
+    <section id="future" class="bg-white p-6 md:p-10 rounded-xl shadow-lg hover:shadow-xl transition duration-300">
+      <h2 class="text-3xl font-bold text-primary-green mb-6 border-b-2 border-primary-green/30 pb-2">10. The Path Forward: Collaboration and the Future of Conservation Tech</h2>
+
+      <h3 class="text-2xl font-semibold text-secondary-teal mt-6 mb-3">Collaboration and Open Solutions</h3>
+      <p class="mb-4">The future of effective conservation hinges on dismantling data silos and fostering global cooperation. Promoting open-source solutions and standardized platforms for sharing data (like Movebank for animal movement) allows for large-scale ecological research and more effective global conservation strategies.</p>
+
+      <h3 class="text-2xl font-semibold text-secondary-teal mt-8 mb-3">Cross-Sector Partnerships</h3>
+      <p class="mb-4">Technology solutions must be sustainable and fit for purpose. This requires collaboration between conservation NGOs, tech companies, governments, and local communities to ensure solutions are developed with local needs and contexts in mind.</p>
+
+      <h3 class="text-2xl font-semibold text-secondary-teal mt-8 mb-3">Building Capacity and Ensuring Equity</h3>
+      <p class="mb-4">Technology is only effective if people can use it. Investing in local capacity building and training is crucial to empower frontline staff. Furthermore, as AI and other advanced tools become more prevalent, measures must be taken to ensure equitable access, development, and deployment, preventing a "digital divide" in conservation where only wealthy organizations can afford the best tools.</p>
+      
+      <h3 class="text-2xl font-semibold text-secondary-teal mt-8 mb-3">The Growing Market</h3>
+      <p class="mb-4">The demand for reliable biodiversity data is surging, driven by new financial disclosure frameworks like the TNFD (Taskforce on Nature-related Financial Disclosures). This is fueling a rapidly growing market for conservation technology, which is projected to expand significantly by 2030. This investment from the private sector, philanthropists, and governments is vital to fund the technological revolution needed to turn the tide on biodiversity loss.</p>
+
+      <blockquote class="border-l-4 border-secondary-teal pl-4 italic text-gray-500 my-6">
+        "Protecting and restoring nature is the most pressing challenge facing humanity... To realise that potential, we need collaboration, not competition. Open, accessible solutions that are fit for purpose, not one-size-fits-all. Global data sharing and local capacity building."
+        <footer class="text-sm font-semibold mt-2 not-italic text-secondary-teal"> - Fauna & Flora</footer>
+      </blockquote>
+    </section>
+  </main>
+  
+  <!-- PDF Link Button -->
+  <div class="text-center py-8">
+    <a href="https://drive.google.com/file/d/10t0VgXRbsuHVIyTUJsimqlDl_0tFWKah/view?usp=drive_link"
+      target="_blank"
+      class="bg-primary-green hover:bg-emerald-700 text-white font-bold py-3 px-8 rounded-full shadow-xl transform transition duration-300 hover:scale-105 inline-flex items-center space-x-2">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+      </svg>
+      <span>Download & view Full Report (PDF)</span>
+    </a>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-secondary-teal text-white py-6 mt-10">
+    <div class="text-center text-sm">
+      <p>&copy; 2025 Wildlife Tech Protect | Leveraging Digital Tools for a Wilder Tomorrow</p>
+	  <p><b>created by kedar kulkarni</b></p>
+    </div>
+  </footer>
+
+  <!-- Simple CSS to hide the scrollbar track on WebKit browsers for the overflow-x-auto nav, while keeping functionality -->
+  <style>
+    .scrollbar-hide::-webkit-scrollbar {
+        display: none;
+    }
+    .scrollbar-hide {
+        -ms-overflow-style: none; /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+    }
+  </style>
+</body>
+</html>
